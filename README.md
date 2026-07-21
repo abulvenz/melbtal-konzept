@@ -12,6 +12,7 @@ Der Versuch aus dem Melbbad ein Naturbad zu machen. Ideenfindung
 |---|---|
 | [index.html](index.html) | Landingpage: Das Melbtal-Konzept – Naturbadesee im Bürgerpark mit Hochwasserschutz ([live](https://abulvenz.github.io/melbtal-konzept/)) |
 | [melbbad-karte.html](melbbad-karte.html) | Interaktive Karte IST/SOLL (Leaflet/OSM) ([live](https://abulvenz.github.io/melbtal-konzept/melbbad-karte.html)) |
+| [impressum.html](impressum.html) | Impressum (§ 5 DDG, § 18 MStV) & Datenschutzerklärung ([live](https://abulvenz.github.io/melbtal-konzept/impressum.html)) |
 
 ### Recherche
 

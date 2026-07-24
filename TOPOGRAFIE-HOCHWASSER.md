@@ -17,8 +17,9 @@
 | Mündung | Rhein (km 653,93), ca. **54 m ü. NHN** |
 | Gesamtgefälle | ca. 112 m → Sohlgefälle **~18 ‰** (steil!) |
 | Verlauf | **3,1 km offen** durchs Melbtal → **durch das Melbbad-Gelände (renaturiert!)** → ab Poppelsdorf **~1,5 km verrohrt** → Weiher Botanischer Garten (Melbweiher) → unterirdisch zum Rhein |
+| Abflussmengen (BEP 2008) | normal **5–40 l/s**, Hochwasser **2.100 l/s** (Bemessungsangabe Stadt Bonn; BEP nennt EZG 3,4 km², LANUV 5,02 km² – Differenz klären!) |
 | Historie | Melbbad steht am Standort einer **ehemaligen Wassermühle** ("Obere Mühle") – Wasserrückhalt an dieser Stelle hat also historische Tradition (Mühlenteich) |
-| Hochwasserhistorie | Hochwasser in Poppelsdorf 1970 → **1991 neuer, größerer Entlastungskanal** vom Weiher zum Rhein; Starkregen **2020 zerstörte die Melbbad-Technik** |
+| Hochwasserhistorie | Hochwasser in Poppelsdorf 1970 → **1991 neuer, größerer Entlastungskanal** vom Weiher zum Rhein, seit **25.2.1994** mündet der Bach direkt in den Rhein (vorher Mischwasserkanalisation); **2005** Offenlegung durchs Freibad + **Neubau eines kleinen HRB oberhalb des Bades**; Starkregen **2020 zerstörte trotzdem die Melbbad-Technik** |
 
 Quellen: https://de.wikipedia.org/wiki/Melbbach · Bachentwicklungsplan Stadt Bonn 2008 (S. 37): https://web.archive.org/web/20151213063607/https://www2.bonn.de/bo_ris/daten/O/pdf/08/0810154ED2.pdf
 
@@ -48,6 +49,19 @@ Talweg = OSM-Relation 3446379 (Melbbach, 554 Stützpunkte); Melbbad-Gelände = O
 2. **Das Melbbad liegt in der ersten Talweitung** unmittelbar am NSG-Rand – die letzte offene Fläche, bevor der Bach ~500 m weiter unter die dichte Poppelsdorfer Bebauung abtaucht (Verrohrung ab ~77 m Geländehöhe).
 3. **Poppelsdorf liegt 25–30 m TIEFER als das Bad** (67–77 m vs. ~99 m). Alles Wasser, das am Bad nicht gebremst wird, schießt mit starkem Gefälle in den Stadtteil (Bad → Weiher: ~32 m Gefälle auf ~1,2 km).
 4. **Der Engpass ist die Verrohrung:** 1,5 km Rohr unter Poppelsdorf. Übersteigt der Zufluss die Rohrkapazität, tritt das Wasser an der Trierer Straße über und flutet oberirdisch den Stadtteil (Szenario 1970, Teilszenario 2020). Der 1991er Entlastungskanal hilft erst **ab dem Weiher** – der kritische Abschnitt Bad → Weiher bleibt.
+
+### Faktencheck: Was seit 1970 bereits gebaut wurde (und warum es 2020 nicht reichte)
+
+| Jahr | Maßnahme | Wirkung / Grenze |
+|---|---|---|
+| 1991 | **Entlastungskanal Weiher → Rhein** (Mündung Zweite Fährgasse) | Entlastet nur den Abschnitt **ab dem Poppelsdorfer Weiher**; der kritische Abschnitt Bad → Weiher (Verrohrung unter der Trierer Straße) profitiert nicht |
+| 25.2.1994 | Melbbach mündet **direkt in den Rhein** statt in die Mischwasserkanalisation (BEP 2008) | Entlastet das Kanalnetz, ändert aber nichts am Engpass oberhalb |
+| 2005 | **Offenlegung des Bachs** ab Hochhäuser Trierer Str. durchs Freibadgelände + **Neubau eines Hochwasserrückhaltebeckens direkt oberhalb des Melbbades** (BEP 2008, Stat. 3,27–3,30: "Erdbecken mit Schlammfang und Ökoprofil durch das Dammbauwerk") | Es gibt also **bereits Retention am Talausgang** – aber als kleines Erdbecken (~30 m Stationslänge). Der Starkregen **2020 überforderte es nachweislich**: Bad-Technik zerstört (GA: Bach konnte Wasser aus Melbtal, Hängen Trierer Str. und Venusberg "nicht mehr aufnehmen") |
+| 2024–2026 | **Regenrückhaltebecken Hauweg** (Venusberg, ehem. Sportplatz, ~2,2 Mio. €) | Städtische Praxis der Überflutungsvorsorge – schützt aber **Bergstraße/Rosenburgweg (Richtung Kessenich)**, nicht das Melbbach-System; die vorhandenen Becken Bergstraße liefen zuvor mehrfach über |
+
+**Kein Beleg gefunden** für ein großes unterirdisches Becken "unter dem Poppelsdorfer Platz" (geprüft: Wikipedia, BEP 2008, bonn.de-Pressemitteilungen, Starkregen-Broschüre Tiefbauamt 2025). Vermutlich wird der 1991er Entlastungskanal bzw. das HRB am Bad erinnert. → Für belastbare Aussagen: **Kanalbestandsplan/Bemessung beim Tiefbauamt erfragen** (siehe offene Aufgaben).
+
+**Konsequenz für die Argumentation:** Nicht "Poppelsdorf hat keinen Schutz", sondern: **Die vorhandenen Maßnahmen (Kanal 1991, kleines HRB 2005) haben das Ereignis 2020 nachweislich nicht beherrscht.** Das Konzept ersetzt sie nicht, sondern **vergrößert die vorhandene, zu kleine Retention am richtigen Ort um ein Vielfaches** (15.000–30.000 m³ statt eines kleinen Erdbeckens) – als Ausbau erklärter städtischer Praxis (Holzlarer See, Hauweg).
 
 ## 3. Harte Standort-Restriktionen (neu recherchiert)
 
@@ -95,8 +109,8 @@ Der Treppenwitz von 2020: Zerstört wurde damals die **Badewassertechnik**. Ein 
 
 | Ohne Konzept (Stadt-Plan) | Mit Melbtal-Konzept |
 |---|---|
-| Bad wird aufgegeben, Gelände "Sportpark" (Kletterhalle = Baukörper in Kaltluftschneise, null Retention) | Bad bleibt + Poppelsdorf bekommt erstmals echten Starkregenschutz |
-| Starkregenrisiko Poppelsdorf bleibt ungelöst | Retention am Talausgang + Drossel vor der Verrohrung |
+| Bad wird aufgegeben, Gelände "Sportpark" (Kletterhalle = Baukörper in Kaltluftschneise, null zusätzliche Retention) | Bad bleibt + die 2020 nachweislich zu kleine Retention am Talausgang wird um ein Vielfaches vergrößert |
+| Starkregenrisiko Poppelsdorf bleibt auf dem Stand von 2020 (kleines HRB + Kanal von 1991 reichten nicht) | Große Retention am Talausgang + Drossel vor der Verrohrung |
 | Kosten: Bäderetat (erschöpft) | Finanzierung anteilig aus **Wasserwirtschaft/Klimaanpassung** (HWRM-Förderung NRW, ANK) |
 | Verliert gegen Bürgerentscheid-Erbe | Erfüllt Bürgerwillen UND schafft Mehrwert für alle Unterlieger |
 
@@ -119,6 +133,8 @@ Damit wird aus "Poppelsdorf will sein Freibad zurück" (Partikularinteresse) →
 - [ ] DGM1 NRW (opengeodata.nrw.de) für exaktes Geländemodell Bad + Talausgang auswerten (ersetzt EU-DEM-Schätzung)
 - [ ] Starkregengefahrenkarte Bonn für Poppelsdorf/Melbtal einsehen (Fließwege, Einstautiefen 2020-Szenario)
 - [ ] Kapazität der Melbbach-Verrohrung (Bemessungsabfluss) bei Stadt/Tiefbauamt erfragen (IFG-Anfrage möglich)
+- [ ] **Bestehendes HRB oberhalb des Melbbades:** Volumen, Bemessungsereignis, Drosselabfluss und Zustand beim Tiefbauamt erfragen – zentrale Zahl für das Argument "vorhandene Retention zu klein"
+- [ ] Kanalbestandsplan Poppelsdorf einsehen: Gibt es unterirdische Stauräume/Becken (z. B. im Bereich Poppelsdorfer Platz)? Bisher kein Beleg gefunden – vor Verwendung des Arguments verifizieren
 - [ ] NSG-Verordnung BN-011 im Wortlaut: exakte Grenze am Melbbad, Verbote/Erlaubnisvorbehalte
 - [ ] Bachentwicklungsplan 2008 vollständig auswerten (dort steht der Status "renaturiert durchs Bad" + ggf. geplante Maßnahmen)
 - [ ] Zwei Planungsbüros kontaktieren (Ortstermin), Wasserwirtschaftsbüro für N-A-Modell identifizieren
@@ -132,4 +148,7 @@ Damit wird aus "Poppelsdorf will sein Freibad zurück" (Partikularinteresse) →
 - Bachentwicklungsplan Stadt Bonn 2008: https://web.archive.org/web/20151213063607/https://www2.bonn.de/bo_ris/daten/O/pdf/08/0810154ED2.pdf
 - Höhendaten: OpenTopoData EU-DEM 25 m: https://www.opentopodata.org/ (DGM1 NRW: https://www.opengeodata.nrw.de/produkte/geobasis/hm/dgm1_xyz/)
 - Starkregen in Bonn (Tiefbauamt-Broschüre 2025): https://www.bonn.de/medien-global/amt-66/66.05_BR_Starkregen-2025_WEB.pdf
+- Bachentwicklungsplan 2008, Steckbrief Engelsbach (5.1): HRB oberhalb des Melbbades (Stat. 3,27–3,30, Erdbecken, Neubau bei Offenlegung 2005); Rheinmündung seit 25.2.1994; Abfluss 5–40 l/s normal / 2.100 l/s Hochwasser
+- RRB Hauweg (Venusberg), Stadt Bonn Pressemitteilung 30.1.2024: https://www.bonn.de/pressemitteilungen/januar-2024/vorbereitende-arbeiten-fuer-neues-regenrueckhaltebecken-am-hauweg.php · Baubericht 2026: https://www.treffpunkt-bau.eu/news/2026-01-22/kliemt-gruppe-mehr-schutz-bei-starkregen-neues-regenrueckhaltebecken-am-venusberg-in-bonn-erstellt/
+- GA zum Starkregen 2020 ("Bach konnte Wasser … nicht mehr aufnehmen"): https://ga.de/bonn/stadt-bonn/bonn-melbbad-neues-lebenszeichen-nach-langem-stillstand_aid-146154641
 - Planungsbüros: siehe Tabelle Abschnitt 5

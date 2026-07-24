@@ -84,6 +84,9 @@ const verrohrung = GEO_BACH.coordinates[0].filter(p=>p[1]>50.7199).map(p=>[p[1],
 L.polyline(verrohrung,{color:'#7f8c8d',weight:5,dashArray:'4 8',opacity:.9})
  .bindPopup('<b>Verrohrung (~1,5 km)</b><br>Der Bach verschwindet unter Poppelsdorf. <b>DER Engpass:</b> Bei Starkregen tritt Wasser oberirdisch aus (Hochwasser 1970; Entlastungskanal 1991 hilft erst ab dem Weiher).').addTo(shared);
 lbl([50.7212,7.0872],'Verrohrung  &#9888;','warn',150).addTo(shared);
+L.circleMarker([50.7137,7.0890],{radius:7,color:'#1f618d',weight:2,fillColor:'#aed6f1',fillOpacity:.9})
+ .bindPopup('<b>Bestehendes R&uuml;ckhaltebecken (2005)</b><br>Kleines Erdbecken mit Schlammfang direkt oberhalb des Bades (Bachentwicklungsplan 2008, Neubau bei der Offenlegung 2005).<br><b>2020 nachweislich zu klein</b> &ndash; genau diese Retention vergr&ouml;&szlig;ert das Melbtal-Konzept um ein Vielfaches. (Exakte Lage/Volumen: beim Tiefbauamt erfragen.)').addTo(shared);
+lbl([50.7137,7.0899],'best. R&uuml;ckhaltebecken (klein)','',190).addTo(shared);
 // Nachbarschaft Schmidtbonnstrasse: Tabuzone in beiden Ansichten sichtbar
 SCHMIDTBONN.forEach(b=>L.polygon(b,{color:'#6c3483',weight:2,fillColor:'#bb8fce',fillOpacity:.5})
  .bindPopup('<b>Wohnbebauung Schmidtbonnstra&szlig;e 4&ndash;10</b><br>Direkte Nachbarschaft am Ostrand &ndash; <b>Tabuzone</b>: Park- und Badnutzung enden an der Grundst&uuml;cksgrenze; L&auml;rm-/Sichtschutz durch Geh&ouml;lzstreifen.').addTo(shared));
@@ -107,7 +110,7 @@ lbl([50.7150,7.0884],'MELBBAD (zu)','warn',120).addTo(ist);
 L.marker([50.71495,7.08745]).bindPopup('<b>&#9889; 2020: Technikraum zerst&ouml;rt</b><br>Die Achilles-Ferse des konventionellen Bads: teure DIN-19643-Technik am Talausgang eines Starkregen-Kerbtals.<br><i>Der Stadt-Plan wiederholt genau das.</i>').addTo(ist);
 const flut=[[50.7135,7.0892],[50.7150,7.0881],[50.7171,7.0876],[50.7199,7.0870],[50.7225,7.0890],[50.7245,7.0947]];
 L.polyline(flut,{color:'#e74c3c',weight:6,opacity:.65,dashArray:'12 8'})
- .bindPopup('<b>Starkregen-Szenario heute</b><br>Kerbtal wirkt als Trichter (Flanken +60 m!). Ungebremster Abfluss: Bad (~99 m) &rarr; Poppelsdorf (67&ndash;77 m, also 25&ndash;30 m tiefer). Verrohrung &uuml;berlastet &rarr; Stra&szlig;en fluten.').addTo(ist);
+ .bindPopup('<b>Starkregen-Szenario heute</b><br>Kerbtal wirkt als Trichter (Flanken +60 m!). Das kleine R&uuml;ckhaltebecken oberhalb des Bades (Erdbecken von 2005) lief 2020 &uuml;ber &ndash; danach ungebremster Abfluss: Bad (~99 m) &rarr; Poppelsdorf (67&ndash;77 m, also 25&ndash;30 m tiefer). Verrohrung &uuml;berlastet &rarr; Stra&szlig;en fluten.').addTo(ist);
 lbl([50.7228,7.0905],'&#11015; 25&ndash;30 m Gef&auml;lle: Flutrisiko Poppelsdorf','warn',260).addTo(ist);
 L.circle([50.7225,7.0900],{radius:210,color:'#e74c3c',weight:1,fillColor:'#e74c3c',fillOpacity:.18})
  .bindPopup('<b>Risikobereich Poppelsdorf</b><br>Tiefpunkt unterhalb des Talausgangs; historische Hochwasser 1970 &amp; 2020.').addTo(ist);

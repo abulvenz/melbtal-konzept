@@ -56,6 +56,8 @@
     background:var(--wasser);border:3px solid #fff;box-shadow:0 0 0 2px var(--wasser)}
   .tl li.warn::before{background:var(--rot);box-shadow:0 0 0 2px var(--rot)}
   .tl li.now::before{background:#f1c40f;box-shadow:0 0 0 2px #f1c40f}
+  .tl li.next::before{background:#fff;box-shadow:0 0 0 2px var(--gruen)}
+  .tl li.next .datum{color:var(--gruen)}
   .tl b{color:var(--blau)}
   .tl .datum{font-size:13px;font-weight:800;color:var(--grau);text-transform:uppercase;letter-spacing:.04em}
 
@@ -101,7 +103,7 @@
 
 <header><div class="wrap">
   <span class="badge">&#9888; Im Herbst 2026 entscheidet der Rat &ndash; jetzt z&auml;hlt jede Stimme</span>
-  <h1>Das Melbbad retten.<br>Und Poppelsdorf gleich mit.</h1>
+  <h1>Das Melbbad retten.<br>Und Poppelsdorf vor Starkregen sch&uuml;tzen.</h1>
   <p class="sub">Ein Naturbadesee im offenen B&uuml;rgerpark, der bei Starkregen den Stadtteil sch&uuml;tzt:
   <b>halber Invest, ein Bruchteil der Betriebskosten, kaum Personal</b> &ndash; und der B&uuml;rgerentscheid von 2020 wird endlich respektiert.</p>
   <div class="btnrow">
@@ -121,9 +123,14 @@
     <li><span class="datum">2022</span><br><b>Ratsbeschluss:</b> abgespeckter Neubau des Funktionsgeb&auml;udes (damals 10,7 Mio. &euro;).</li>
     <li><span class="datum">September 2025</span><br><b>Generalplaner beauftragt.</b> Plan: Er&ouml;ffnung 2029. Der heutige OB wirbt im Wahlkampf f&uuml;r den Neubau.</li>
     <li class="warn"><span class="datum">Juni 2026</span><br><b>Der Schock:</b> Neues B&auml;derkonzept &ndash; Melbbad und Frankenbad sollen aufgegeben werden. Aufs Gel&auml;nde soll ein &bdquo;Sportpark&ldquo; mit Kletterhalle.</li>
-    <li><span class="datum">Juli 2026</span><br><b>Die Antwort:</b> Neues B&uuml;rgerbegehren eingereicht, Plakatkampagne l&auml;uft.</li>
-    <li class="now"><span class="datum">Herbst 2026</span><br><b>Der Rat entscheidet.</b> Genau jetzt braucht es einen Vorschlag, der die Argumente der Stadt entkr&auml;ftet &ndash; das Melbtal-Konzept.</li>
+    <li><span class="datum">Juli 2026</span><br><b>Reaktion aus der B&uuml;rgerschaft:</b> Die Initiative &bdquo;Rettet das Melbbad&ldquo; reicht ein neues B&uuml;rgerbegehren ein; der F&ouml;rderverein Unser Melbbad e.&thinsp;V. startet eine Plakatkampagne. (Beide unabh&auml;ngig von dieser Konzeptstudie.)</li>
+    <li class="now"><span class="datum">Herbst 2026</span><br><b>Der Rat entscheidet &uuml;ber die Finanzen.</b> Genau jetzt braucht es einen Vorschlag, der die Argumente der Stadt entkr&auml;ftet &ndash; das Melbtal-Konzept. Die entscheidende Bitte an den Rat: <b>Pr&uuml;fauftrag statt endg&uuml;ltiger Aufgabe</b> &ndash; und keine unumkehrbaren Beschl&uuml;sse (keine Umwidmung des Gel&auml;ndes).</li>
+    <li class="next"><span class="datum">Winter 2026/27 &ndash; so kann es weitergehen</span><br><b>Machbarkeit kl&auml;ren:</b> Machbarkeitsstudie Naturbad + hydrologisches Gutachten (zusammen grob 50&ndash;80 T&euro; &ndash; ein Bruchteil jeder anderen Option) und F&ouml;rder-Voranfragen bei Bezirksregierung (Hochwasserschutz) und Klimaanpassungsprogrammen.</li>
+    <li class="next"><span class="datum">2027</span><br><b>Variantenentscheid im Rat, F&ouml;rderantr&auml;ge, Fachplanung</b> (Naturbad-B&uuml;ro + Wasserwirtschaft). Die vorhandene Generalplanung wird umgewidmet statt weggeworfen.</li>
+    <li class="next"><span class="datum">2028</span><br><b>Wasserrechtliche Genehmigung + Baubeginn.</b> Umbau der vorhandenen Becken statt Komplettneubau &ndash; deshalb die kurze Bauzeit.</li>
+    <li class="next"><span class="datum">Sommer 2029</span><br><b>Er&ouml;ffnung: Naturbadesee im offenen B&uuml;rgerpark</b> &ndash; mit Starkregenschutz f&uuml;r Poppelsdorf. <b>Derselbe Zeithorizont, den auch der Neubau-Plan hatte</b> (Er&ouml;ffnung 2029) &ndash; nur f&uuml;r einen Bruchteil der Kosten.</li>
   </ul>
+  <p class="maphint" style="margin-top:10px">Gr&uuml;ne Punkte = Fahrplan-Vorschlag dieser Konzeptstudie, abh&auml;ngig vom Ratsentscheid im Herbst 2026 &ndash; keine amtliche Planung.</p>
 </div></section>
 
 <section class="alt" id="konzept"><div class="wrap">
@@ -194,7 +201,7 @@
     <tr><td><b>Betrieb / Jahr</b></td><td>&ndash;</td><td class="lose">~300&ndash;400 T&euro; (Branchenmittel)</td><td class="win">~60&ndash;70&nbsp;% davon; Parkbetrieb minimal</td></tr>
     <tr><td><b>Fachpersonal B&auml;der</b></td><td>keins</td><td class="lose">ben&ouml;tigt (st&auml;dt. Engpass!)</td><td class="win">keins &ndash; Ehrenamt/DLRG f&uuml;r Badezone</td></tr>
     <tr><td><b>Schwimmen im Stadtteil</b></td><td class="lose">nein &ndash; endg&uuml;ltig verloren</td><td class="win">ja (ab 2029)</td><td class="win">ja &ndash; See 2.400 m&sup2;, ~2.400 G&auml;ste/Tag</td></tr>
-    <tr><td><b>Starkregenschutz Poppelsdorf</b></td><td class="lose">nein</td><td class="lose">nein (Technik wieder im Flutweg)</td><td class="win">ja: Retention + Drossel vor der Verrohrung</td></tr>
+    <tr><td><b>Starkregenschutz Poppelsdorf</b></td><td class="lose">unver&auml;ndert Stand 2020</td><td class="lose">unver&auml;ndert (Technik wieder im Flutweg)</td><td class="win">deutlich erh&ouml;ht: gro&szlig;e Retention + Drossel vor der Verrohrung</td></tr>
     <tr><td><b>Flut-Resilienz</b></td><td>&ndash;</td><td class="lose">wiederholt den Fehler von 2020</td><td class="win">kaum Technik, Pumpe aufgest&auml;ndert</td></tr>
     <tr><td><b>B&uuml;rgerentscheid 2020</b></td><td class="lose">missachtet</td><td class="win">erf&uuml;llt</td><td class="win">erf&uuml;llt + Mehrwert f&uuml;r alle</td></tr>
   </table>
@@ -213,7 +220,7 @@
     <p>Der See selbst ist eine <b>freie Badestelle ohne Aufsichtspflicht</b> (kein Eintritt, keine b&auml;dertypischen Anlagen &ndash; DGfdB R 94.13): Beschilderung, Rettungsringe, regelm&auml;&szlig;ige Kontrollen gen&uuml;gen. Einzig das <b>separate, abschlie&szlig;bare Sprungbecken</b> l&ouml;st Aufsichtspflicht aus &ndash; es &ouml;ffnet nur, wenn Rettungsschwimmer*innen (DRSA Silber) von DLRG oder Verein ehrenamtlich Wache stehen. So bleibt der Badespa&szlig; dauerhaft offen, ganz ohne st&auml;dtisches Personal.</p>
   </details>
   <details><summary>Was passiert beim n&auml;chsten Starkregen?</summary>
-    <p>Das Drosselbauwerk gibt nur so viel Wasser an die Verrohrung ab, wie sie verkraftet. Der Rest staut kontrolliert auf der Nordwiese ein (bis ~30.000 m&sup3;) und l&auml;uft danach ab. Die Badebecken k&ouml;nnen notfalls &uuml;berstaut werden &ndash; ohne Technik gibt es keinen Totalschaden mehr. Poppelsdorf bekommt erstmals echten Schutz.</p>
+    <p>Das Drosselbauwerk gibt nur so viel Wasser an die Verrohrung ab, wie sie verkraftet. Der Rest staut kontrolliert auf der Nordwiese ein (bis ~30.000 m&sup3;) und l&auml;uft danach ab. Die Badebecken k&ouml;nnen notfalls &uuml;berstaut werden &ndash; ohne Technik gibt es keinen Totalschaden mehr. Wichtig: Schutzbauten gibt es schon (Entlastungskanal von 1991 ab dem Weiher, kleines R&uuml;ckhaltebecken oberhalb des Bades von 2005) &ndash; doch 2020 haben sie nachweislich nicht gereicht. Das Konzept vergr&ouml;&szlig;ert die vorhandene Retention am richtigen Ort um ein Vielfaches.</p>
   </details>
   <details><summary>Und das Schul- und Vereinsschwimmen?</summary>
     <p>Ehrliche Antwort: Das leisten die vier Kombibad-Standorte des B&auml;derkonzepts besser. Das Melbtal-Konzept konkurriert nicht damit &ndash; es erg&auml;nzt das B&auml;derkonzept um ein Freizeit- und Stadtteilbad, das die Stadt fast nichts kostet.</p>
@@ -225,13 +232,16 @@
 
 <section class="ctaband" id="mitmachen"><div class="wrap">
   <h2>Jetzt bist du dran</h2>
-  <p class="lead" style="margin:0 auto 28px;color:#eafaf1">Der Rat entscheidet im Herbst 2026. Werde Mitglied im F&ouml;rderverein,
-  folg der Initiative auf Facebook oder hilf beim n&auml;chsten Aktionstag.</p>
+  <p class="lead" style="margin:0 auto 28px;color:#eafaf1">Der Rat entscheidet im Herbst 2026. Sprich mit deinen Ratsmitgliedern,
+  teile das Konzept &ndash; und informiere dich aus den Originalquellen.</p>
   <div class="btnrow" style="justify-content:center">
-    <a class="btn gruen" href="https://melbbad.net/" target="_blank" rel="noopener">Unser Melbbad e.V.</a>
-    <a class="btn ghost" href="https://www.facebook.com/rettetdasmelbbad/" target="_blank" rel="noopener">Facebook</a>
-    <a class="btn ghost" href="https://github.com/abulvenz/melbtal-konzept/blob/main/LINKS.md" target="_blank" rel="noopener">&#128218; Informiere dich aus den Originalquellen</a>
+    <a class="btn gruen" href="https://github.com/abulvenz/melbtal-konzept/blob/main/LINKS.md" target="_blank" rel="noopener">&#128218; Informiere dich aus den Originalquellen</a>
+    <a class="btn ghost" href="https://www.bonn.de/vv/organisationseinheiten/rat-der-stadt-bonn.php" target="_blank" rel="noopener">Rat der Stadt Bonn</a>
   </div>
+  <p style="margin:22px auto 0;max-width:640px;color:#eafaf1;font-size:.9em">Unabh&auml;ngig von dieser Konzeptstudie engagieren sich der
+  <a href="https://melbbad.net/" target="_blank" rel="noopener" style="color:#fff">F&ouml;rderverein Unser Melbbad e.V.</a> und die
+  <a href="https://www.facebook.com/rettetdasmelbbad/" target="_blank" rel="noopener" style="color:#fff">Initiative &bdquo;Rettet das Melbbad&ldquo;</a>
+  f&uuml;r das Bad. Wir stehen in keiner Verbindung zu ihnen und sprechen nicht f&uuml;r sie &ndash; wer dort mitmachen will, wendet sich bitte direkt an sie.</p>
 </div></section>
 
 <footer><div class="wrap">
@@ -254,7 +264,7 @@
       <a href="https://github.com/abulvenz/melbtal-konzept/blob/main/TOPOGRAFIE-HOCHWASSER.md" target="_blank" rel="noopener">Topografie &amp; Hochwasser</a>
     </div>
     <div>
-      <h4>Aktiv werden</h4>
+      <h4>Engagement vor Ort (unabh&auml;ngig von uns)</h4>
       <a href="https://melbbad.net/" target="_blank" rel="noopener">melbbad.net</a><br>
       <a href="https://www.facebook.com/rettetdasmelbbad/" target="_blank" rel="noopener">facebook.com/rettetdasmelbbad</a>
       <h4 style="margin-top:18px">Rechtliches</h4>
@@ -262,8 +272,10 @@
     </div>
   </div>
   <div class="disclaimer">
-    Unabh&auml;ngige Konzeptstudie aus der B&uuml;rgerschaft &ndash; keine amtliche Planung, keine offizielle Seite der Stadt Bonn
-    oder der genannten Vereine. Kosten- und Mengenangaben sind Sch&auml;tzungen auf Benchmark-Basis und durch Fachplanung zu
+    Unabh&auml;ngige Konzeptstudie aus der B&uuml;rgerschaft &ndash; keine amtliche Planung, keine offizielle Seite der Stadt Bonn,
+    des F&ouml;rdervereins Unser Melbbad e.V. oder der Initiative &bdquo;Rettet das Melbbad&ldquo;. Wir stehen in keiner
+    organisatorischen Verbindung zu diesen und sprechen nicht f&uuml;r sie; Verlinkungen dienen allein der Information.
+    Kosten- und Mengenangaben sind Sch&auml;tzungen auf Benchmark-Basis und durch Fachplanung zu
     validieren. Kartendaten &copy; OpenStreetMap-Mitwirkende (ODbL).
   </div>
 </div></footer>

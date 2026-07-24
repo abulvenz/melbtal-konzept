@@ -102,7 +102,7 @@ https://news.google.com/rss/search?q=Melbbad%20Bonn&hl=de&gl=DE&ceid=DE:de
 - [ ] Exakte Zahlen des Bürgerentscheids 2020 verifizieren (74.955 vs. 47.955 – Quelle: Wahlamt Bonn / bonn.de Wahlergebnisse)
 - [ ] Volltext der Bäderkonzept-Vorlage aus dem Ratsinformationssystem (ALLRIS) beschaffen
 - [ ] Wortlaut des neuen Bürgerbegehrens beschaffen – Stand 17.07.2026 gibt es **keine** Webseite dazu: rettet-das-melbbad.de UND rettetdasmelbbad.de sind STRATO-Parkseiten (Relaunch vermutlich in Vorbereitung), melbbad.net erwähnt das Begehren nicht, GA-Artikel hinter Paywall. Quellen: Facebook-Seite verfolgen, Initiative direkt kontaktieren, ALLRIS auf Zulässigkeitsprüfungs-Vorlage beobachten
-- [ ] Sobald die Initiative ihre Seite relauncht (rettet[-]das[-]melbbad.de): Link in index.html (Sektion „Mitmachen" + Footer) wieder ergänzen
+- [ ] Sobald die Initiative ihre Seite relauncht (rettet[-]das[-]melbbad.de): Link in index.html ergänzen – **aber nur im Hinweisblock „unabhängig von uns"** (Mitmachen-Sektion/Footer). Wichtig: Wir sind weder Verein noch Initiative und dürfen nicht deren Sprecherrolle suggerieren (siehe Disclaimer in index.html + impressum.html)
 - [ ] Ergebnis/Protokoll der Sportausschuss-Sondersitzung vom 14.07.2026
 - [ ] Positionen der Ratsfraktionen (CDU, Grüne, SPD, FDP, Linke, BBB, Volt) zum Bäderkonzept sammeln
 - [ ] Rechtliche Bindungswirkung des Bürgerentscheids 2020 prüfen (§ 26 GO NRW: 2-Jahres-Bindung ist abgelaufen – Argumentation darauf einstellen)

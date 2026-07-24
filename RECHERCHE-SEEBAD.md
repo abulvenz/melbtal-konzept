@@ -134,7 +134,7 @@ Ein (kleines) Hochwasser-/Regenrückhaltebecken (HRB) im Melbtal **oberhalb** de
 Die Stadt Bonn hat bis Frühjahr 2023 das **Hochwasserrückhaltebecken Holzlarer See** umgebaut (vergrößerter Stauraum, gesteuerter Abfluss, Schutzziel HQ100) – kommunale Rückhaltebecken sind also erklärte städtische Praxis der Überflutungsvorsorge:
 https://www.bonn.de/themen-entdecken/umwelt-natur/starkregen-schutzmassnahmen.php
 
-Für das **Melbtal ist bislang keine vergleichbare Maßnahme bekannt** (Stand der Recherche) – der Vorschlag füllt eine echte Lücke.
+**Korrektur (Faktencheck, siehe TOPOGRAFIE-HOCHWASSER.md):** Im Melbtal existiert bereits ein **kleines Hochwasserrückhaltebecken direkt oberhalb des Melbbades** (Erdbecken mit Schlammfang, Neubau 2005 im Zuge der Bachoffenlegung; Bachentwicklungsplan 2008, Steckbrief Engelsbach 5.1). Dazu kommen der **Entlastungskanal von 1991** (ab Poppelsdorfer Weiher zum Rhein) und die direkte Rheinmündung seit 1994. **Aber:** Das Ereignis 2020 hat diese Maßnahmen nachweislich überfordert – der Vorschlag füllt also keine völlige Lücke, sondern **vergrößert eine vorhandene, zu kleine Retention** am richtigen Ort. Ein unterirdisches Becken unter dem Poppelsdorfer Platz ließ sich dagegen **nicht belegen** (vor Verwendung als Gegenargument: Kanalbestandsplan beim Tiefbauamt erfragen).
 
 ### Rechtlicher/technischer Rahmen
 

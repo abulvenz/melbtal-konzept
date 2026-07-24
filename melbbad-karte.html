@@ -20,6 +20,7 @@
   .legend{position:absolute;bottom:14px;left:14px;z-index:1000;background:rgba(255,255,255,.95);
     padding:10px 14px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,.3);font-size:12.5px;max-width:280px}
   .legend h3{margin:0 0 6px;font-size:13px;color:#0a3d62}
+  #legbtn{display:none;border:0;background:none;font:inherit;font-size:13px;font-weight:700;color:#0a3d62;cursor:pointer;padding:0}
   .legend .row{display:flex;align-items:center;gap:8px;margin:3px 0}
   .sw{width:22px;height:13px;border-radius:3px;flex:none;border:1px solid rgba(0,0,0,.35)}
   .credits{position:absolute;bottom:14px;right:14px;z-index:1000;background:rgba(255,255,255,.85);
@@ -29,7 +30,16 @@
   .lbl.warn{color:#c0392b}.lbl.good{color:#1e8449}.lbl.sand{color:#b9770e}
   .leaflet-popup-content{font-size:13px;line-height:1.45}
   .leaflet-popup-content b{color:#0a3d62}
-  @media(max-width:700px){.modetext{display:none}.topbar h1{font-size:14px}}
+  @media(max-width:700px){
+    .modetext{display:none}.topbar h1{font-size:14px}
+    #legbtn{display:block}
+    .legend{max-width:240px;max-height:45vh;overflow:auto;bottom:46px;z-index:1001}
+    .legend:not(.open){padding:8px 12px}
+    .legend:not(.open) #legbody{display:none}
+    .legend.open #legbtn{margin-bottom:6px}
+    .credits{left:10px;right:10px;bottom:6px;text-align:center;font-size:10px;padding:3px 8px}
+    .leaflet-bottom.leaflet-right{margin-bottom:34px}
+  }
 </style>
 </head>
 <body>
@@ -45,7 +55,10 @@
   </label>
   <div class="modetext" id="modetext"></div>
 </div>
-<div class="legend" id="legend"></div>
+<div class="legend" id="legend">
+  <button id="legbtn" type="button" onclick="toggleLegend()" aria-expanded="false" aria-controls="legbody">&#128506; Legende &#9656;</button>
+  <div id="legbody"></div>
+</div>
 <div class="credits">Daten: &copy; OpenStreetMap (ODbL) &middot; H&ouml;hen: EU-DEM &middot; Konzept: Unser Melbbad &middot; <a href="impressum.html" target="_top">Impressum &amp; Datenschutz</a></div>
 
 <script>
@@ -191,7 +204,13 @@ L.circleMarker([50.71400,7.08910],{radius:8,color:'#1a5276',weight:2,fillColor:'
 lbl([50.7149,7.0881],'&#9881; Schwerkraft-Kreislauf','',160).addTo(tech);
 
 // ===================== MODUS-STEUERUNG =====================
-const legend = document.getElementById('legend'), modetext = document.getElementById('modetext');
+const legend = document.getElementById('legend'), legbody = document.getElementById('legbody'),
+      legbtn = document.getElementById('legbtn'), modetext = document.getElementById('modetext');
+function toggleLegend(){
+  const open = legend.classList.toggle('open');
+  legbtn.setAttribute('aria-expanded', open);
+  legbtn.innerHTML = '&#128506; Legende ' + (open ? '&#9662;' : '&#9656;');
+}
 const LEG = {
  ist: '<h3>IST 2026 &ndash; Blockade &amp; Risiko</h3>'
   +'<div class="row"><span class="sw" style="background:#c0392b99"></span>Melbbad: seit 2020 zu, Aufgabe droht</div>'
@@ -233,7 +252,7 @@ function setMode(m){
   document.getElementById('btnSoll').className = m==='soll'?'active-soll':'';
   document.getElementById('techlabel').style.display = m==='soll'?'inline-block':'none';
   if(m==='ist'){ map.removeLayer(soll); ist.addTo(map);} else { map.removeLayer(ist); soll.addTo(map);}
-  legend.innerHTML = LEG[m]; modetext.innerHTML = TXT[m];
+  legbody.innerHTML = LEG[m]; modetext.innerHTML = TXT[m];
   syncTech();
 }
 setMode('ist');
